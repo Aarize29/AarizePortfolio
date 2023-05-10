@@ -1,9 +1,9 @@
 import React from 'react'
 import './Projects.css'
-import thequran from '../../../assets/thequran.png'
-import farmsense from '../../../assets/farmsense.png'
-import netflix from '../../../assets/netflix.png'
-import texttospeech from '../../../assets/texttospeech.png'
+import thequran from '/assets/thequran.png'
+import farmsense from '/assets/farmsense.png'
+import netflix from '/assets/netflix.png'
+import texttospeech from '/assets/texttospeech.png'
 const Projects = () => {
   return (
     <div className='overflow-y-scroll mt-2 text-white flex p-5 flex-col hide-scrollbar h-screen'>

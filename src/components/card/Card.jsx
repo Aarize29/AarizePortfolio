@@ -2,7 +2,7 @@ import React from 'react'
 import './Card.css'
 import {AiFillLinkedin, AiFillGithub, AiOutlineTwitter} from 'react-icons/ai'
 import {MdEmail} from 'react-icons/md'
-import myphoto from '../../assets/myphoto.jpeg'
+import myphoto from '/assets/myphoto.jpeg'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 const Card = () => {

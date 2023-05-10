@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'backimage': "url('./src/assets/Tumblr.gif')",
-        'aboutbg': "url('./src/assets/smoke.gif')",
+        'backimage': "url('/assets/Tumblr.gif')",
+        'aboutbg': "url('/assets/smoke.gif')",
       },
       scale: {
         '-100': '-1',
