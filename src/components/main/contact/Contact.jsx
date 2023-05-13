@@ -43,7 +43,7 @@ const Contact = () => {
   };
  
   return (
-    <div className="text-gray-200  mt-8 mb-16 border-solid border-gray-700 border-4 rounded-2xl  h-[83%]">
+    <div className="text-gray-200  mt-8 mb-16 border-solid border-gray-700 border-4 rounded-2xl  overflow-y-scroll hide-scrollbar">
       <h1 className="text-center text-3xl font-bold mt-2 mb-8">Contact Me</h1>
       <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
         <div className="mb-4">
@@ -93,7 +93,7 @@ const Contact = () => {
         </button>
       </form>
 
-       <div className="flex justify-between items-center text-xl font-bold underline decoration-white text-[purple] m-4">
+       <div className="flex justify-between items-center text-xl font-bold underline decoration-white text-[purple] m-4 mb-0">
          <div>+91 6203995489</div>
          <div>shamsaarize@gmail.com</div>
          <div>heymann955@gmail.com</div>

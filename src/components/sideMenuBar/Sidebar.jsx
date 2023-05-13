@@ -45,7 +45,7 @@ const Sidebar = () => {
         >
           <Link to={item.path}>{item.icon}</Link>
           {hoveredIcon === item.name && (
-            <p className="absolute text-sm bg-gray-300 rounded-2xl font-bold -right-16 top-1/2 transform -translate-y-1/2">
+            <p className="absolute text-sm bg-[fuchsia] text-[black] rounded-2xl font-bold -right-16 top-1/2 transform -translate-y-1/2">
               {item.name}
             </p>
           )}
