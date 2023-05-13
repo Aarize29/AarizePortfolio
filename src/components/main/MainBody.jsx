@@ -59,39 +59,39 @@ const MainBody = () => {
   return (
     <div className='flex flex-col bg-[#01020A] '>
         {/* <h1 className='text-white'>Hello World</h1> */}
-       <div className=''>
+       <div className='overflow-y-scroll    flex  flex-col hide-scrollbar'>
        
        {/* Navbar */}
-       <div className="flex fixed w-fit items-center justify-center bg-[#01020A]  p-2 h-fit  text-2xl ">
+       <div className="flex fixed w-full items-center justify-between bg-[#01020A]  p-2 h-fit  text-2xl ">
       
-       <a href='#' onClick={() => document.querySelector('#home').scrollIntoView({ behavior: 'smooth' })}>
-  <IoHome className="mr-1 text-white" />
+       <a href='#' >
+  <IoHome className="mr-1  text-white" />
 </a>
         
       
-       <a href='#about' onClick={() => document.querySelector('#about').scrollIntoView({ behavior: 'smooth' })}>
+       <a href='#about' >
   <IoPerson className="mr-1 text-white" />
 </a>
         
       
-       <a href='#skilss' onClick={() => document.querySelector('#skills').scrollIntoView({ behavior: 'smooth' })}>
+       <a href='#skills' >
   <TbIcons className="mr-1 text-white" />
 </a>
         
       
-        <a href='#projects' onClick={() => document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' })}>
+        <a href='#projects' >
   <TbWebhook className="mr-1 text-white" />
 </a>
         
      
-        <a href='#contact' onClick={() => document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })}>
+        <a href='#contact'>
   <RiContactsBookFill className="mr-1 text-white" />
 </a>
        
       
     </div>
       {/* Card */}
-      <div className="flex flex-col mt-10  w-fit shadow-xl shadow-gray-700 border-solid border-gray-500 border-4 rounded-2xl bg-[#01020A] text-gray-300">
+      <div className="flex flex-col mt-10  w-screen shadow-xl shadow-gray-700 border-solid border-gray-500 border-4 rounded-2xl bg-[#01020A] text-gray-300">
         <div className="flex items-center justify-between m-3 mt-1 ">
           <h1 className='text-4xl font-bold underline decoration-[purple]'>Aarize</h1>
           <a href="https://drive.google.com/file/d/1OoWXDGkKruMQH3Gm7LiLkJSCKmWrsZTl/view?usp=sharing" target='_blank'><h1 className='m-2 text-2xl font-bold underline decoration-[purple] cursor-pointer hover:transition-transform transition-all '>Resume</h1></a>
@@ -110,23 +110,24 @@ const MainBody = () => {
           <a href="contact"><h1 className='text-4xl hover:text-[purple] hover:rounded-[25%] font-bold m-3 cursor-pointer p-2 border-solid border-2 border-[purple] rounded-[50%]'><MdEmail/></h1></a>
           </div>
           <div className="flex justify-center items-center">
-              <button className='text-2xl font-bold bg-[purple] text-white  p-3 rounded-2xl w-full ml-5 mr-5 hover:bg-gray-900 hover:border-2  border-solid border-[purple]' onClick={()=>{navigate('/contact')}}>Hire Me</button>
+              <a href='#contact' className='text-2xl text-center font-bold bg-[purple] text-white  p-3 rounded-2xl w-full ml-5 mr-5 hover:bg-gray-900 hover:border-2  border-solid border-[purple]'>Hire Me</a>
           </div>
+
     
     </div>
 
       {/* Hero */}
-      <div id='home' className= ' mt-10 w-screen bg-backimage bg-repeat-space h-full '>
+      <div id='home' className= ' mt-10  flex flex-col flex-wrap bg-backimage bg-repeat-space  '>
        <div className="">
        <h1 className="text-4xl font-bold m-3 text-fuchsia-500">
        Peace Be Upon You,
        </h1>
        <h1 className='text-4xl ml-10 mb-5 text-white font-semibold'>Hello, I am Shams Aarize Siddique,</h1>
-       <p className='text-center text-xl text-gray-300'>"A web developer with experience in designing and developing fully functional responsive websites and applications. I am passionate about creating user-friendly and visually appealing digital solutions using cutting-edge technologies."</p>
-       <a href='about'><div className="flex justify-end items-end text-fuchsia-500 mr-5 text-xl underline cursor-pointer"><h1 className=' hover:text-white'>Know more about me...</h1></div></a>
+       <p className=' p-5 text-xl text-gray-300'>"A web developer with experience in designing and developing fully functional responsive websites and applications. I am passionate about creating user-friendly and visually appealing digital solutions using cutting-edge technologies."</p>
+       <a href='#about'><div className="flex justify-end items-end text-fuchsia-500 mr-5 text-xl underline cursor-pointer"><h1 className=' hover:text-white'>Know more about me...</h1></div></a>
         
         <div className='flex items-center justify-center mt-[20%]'>
-          <a href='projects'><button className='text-white text-lg font-bold hover:bg-gray-300 w-fit h-fit p-3 rounded-2xl hover:underline hover:text-[purple] bg-[purple] '>Have a look on my projects</button></a>
+          <a href='#projects'><button className='text-white text-lg font-bold hover:bg-gray-300 w-fit h-fit p-3 rounded-2xl hover:underline hover:text-[purple] bg-[purple] '>Have a look on my projects</button></a>
         </div>
       
        </div>
@@ -135,10 +136,10 @@ const MainBody = () => {
     <div id='about' className='w-screen flex flex-col items-center justify-center'> 
        <h1 className='text-center mt-20 text-[fuchsia] underline decoration-white text-4xl font-bold'>About</h1>
        <div className='text-xl  text-gray-300 flex items-center justify-center flex-col m-5 text-gray-300  '>
-<h1>Hello, I am a full stack web developer with expertise in ReactJS, Tailwind CSS, React-Redux, Firebase, Node-ExpressJS, and MongoDB. I am currently learning NextJS and exploring the exciting field of Artificial Intelligence and Machine Learning. <a href='/skills'><span className='text-[fuchsia] text-2xl font-semibold cursor-pointer hover:underline decoration-white'> My skills</span></a> include machine learning concepts like Pandas, NumPy, Seaborn, Matplotlib, and various machine learning algorithms. Apart from web development, I am also proficient in Java and C. With a passion for coding and a constant thirst for knowledge, I strive to keep myself updated with the latest advancements in technology. I believe in delivering quality work and building lasting relationships with clients.</h1> <span className='font-bold text-fuchsia-500'>Let's connect and discuss how we can bring your ideas to life!</span></div>
+<h1>Hello, I am a full stack web developer with expertise in ReactJS, Tailwind CSS, React-Redux, Firebase, Node-ExpressJS, and MongoDB. I am currently learning NextJS and exploring the exciting field of Artificial Intelligence and Machine Learning. <a href='#skills'><span className='text-[fuchsia] text-2xl font-semibold cursor-pointer hover:underline decoration-white'> My skills</span></a> include machine learning concepts like Pandas, NumPy, Seaborn, Matplotlib, and various machine learning algorithms. Apart from web development, I am also proficient in Java and C. With a passion for coding and a constant thirst for knowledge, I strive to keep myself updated with the latest advancements in technology. I believe in delivering quality work and building lasting relationships with clients.</h1> <span className='font-bold text-fuchsia-500'>Let's connect and discuss how we can bring your ideas to life!</span></div>
 
     <div className='flex items-center justify-center mt-[15%] '>
-          <a href='contact'><button className='text-white text-lg font-bold hover:bg-gray-300 w-fit h-fit p-3 rounded-2xl hover:underline hover:text-[purple] bg-[purple] '>Contact Me</button></a>
+          <a href='#contact'><button className='text-white text-lg font-bold hover:bg-gray-300 w-fit h-fit p-3 rounded-2xl hover:underline hover:text-[purple] bg-[purple] '>Contact Me</button></a>
           {/* <a href='skills'><span className='text-fuchsia-500 flex items-center justify-between text-2xl font-semibold cursor-pointer hover:underline decoration-white'> My Skills <BsArrowRight className='m-2'/></span></a> */}
         </div>
     </div>
