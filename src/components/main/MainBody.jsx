@@ -239,7 +239,7 @@ const MainBody = () => {
     <div className="text-gray-200 w-screen border-solid border-4 border-gray-700 p-5 mt-2 mb-16  h-[83%]" >
       <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
         <div className="mb-4">
-          <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
+          <label htmlFor="name" className="block text-gray-300 font-bold mb-2">
             Name
           </label>
           <input
@@ -252,7 +252,7 @@ const MainBody = () => {
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
+          <label htmlFor="email" className="block text-gray-300 font-bold mb-2">
             Email
           </label>
           <input
@@ -265,7 +265,7 @@ const MainBody = () => {
           />
         </div>
         <div className="mb-4">
-          <label htmlFor="message" className="block text-gray-700 font-bold mb-2">
+          <label htmlFor="message" className="block text-gray-300 font-bold mb-2">
             Message
           </label>
           <textarea
