@@ -8,8 +8,8 @@ import { useNavigate } from 'react-router-dom'
 const Card = () => {
   const navigate = useNavigate()
   return (
-    <div className=''>
-      <div className="flex flex-col h-screen shadow-xl shadow-gray-700 border-solid border-gray-500 border-4 rounded-2xl bg-[#01020A] text-gray-300">
+    <div className='h-screen'>
+      <div className="flex flex-col  h-fit w-fit shadow-xl shadow-gray-700 border-solid border-gray-500 border-4 rounded-2xl bg-[#01020A] text-gray-300">
         <div className="flex items-center justify-between m-3 mt-1 ">
           <h1 className='text-4xl font-bold underline decoration-[purple]'>Aarize</h1>
           <h1 className='text-lg font-bold hover:underline decoration-[purple]'>Web Developer</h1>

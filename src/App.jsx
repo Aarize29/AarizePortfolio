@@ -14,7 +14,7 @@ function App() {
 
   return (
     <Router>
-      <div className="flex justify-between bg-[#01020A] ">
+      <div className="hidden lg:flex justify-between bg-[#01020A] ">
         <Sidebar/>
         <div className='w-8/12 '>
         <Navbar/>
@@ -32,8 +32,12 @@ function App() {
         <Card/>
         </div>
       </div>
+      <div className='lg:hidden'>
+      <MainBody/>
+      </div>
     </Router>
-   
+
+    
   )
 }
 

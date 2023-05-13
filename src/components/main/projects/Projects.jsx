@@ -7,7 +7,7 @@ import texttospeech from '/assets/texttospeech.png'
 const Projects = () => {
   return (
     <div className='overflow-y-scroll mt-2 text-white flex p-5 flex-col hide-scrollbar h-screen'>
-      <div className='text-4xl text-[purple] font-bold m-4 mb-4 underline decoration-white'>
+      <div className='text-4xl text-[fuchsia] font-bold m-4 mb-4 underline decoration-white'>
         My Projects</div>
          <p className='text-center text-md m-2'>Scroll down to see more</p>
       <div className="flex w-full items-center border-solid border-4 border-gray-700 rounded-2xl p-5 shadow-lg shadow-gray-500 mb-5">
