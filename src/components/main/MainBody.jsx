@@ -107,7 +107,7 @@ const MainBody = () => {
          <a href="https://www.linkedin.com/in/shams-aarize-6b18a1202/" target="_blank"> <h1 className='text-4xl hover:text-[purple] hover:rounded-[25%] font-bold m-3 cursor-pointer p-2 border-solid border-2 border-[purple] rounded-[50%]'><AiFillLinkedin/></h1></a>
           <a href="https://github.com/Aarize29" target="_blank"><h1 className='text-4xl hover:text-[purple] hover:rounded-[25%] font-bold m-3 cursor-pointer p-2 border-solid border-2 border-[purple] rounded-[50%]'><AiFillGithub/></h1></a>
           <a href="https://twitter.com/ShamsAarize" target="_blank"><h1 className='text-4xl hover:text-[purple] hover:rounded-[25%] font-bold m-3 cursor-pointer p-2 border-solid border-2 border-[purple] rounded-[50%]'><AiOutlineTwitter/></h1></a>
-          <a href="contact"><h1 className='text-4xl hover:text-[purple] hover:rounded-[25%] font-bold m-3 cursor-pointer p-2 border-solid border-2 border-[purple] rounded-[50%]'><MdEmail/></h1></a>
+          <a href="#contact"><h1 className='text-4xl hover:text-[purple] hover:rounded-[25%] font-bold m-3 cursor-pointer p-2 border-solid border-2 border-[purple] rounded-[50%]'><MdEmail/></h1></a>
           </div>
           <div className="flex justify-center items-center">
               <a href='#contact' className='text-2xl text-center font-bold bg-[purple] text-white  p-3 rounded-2xl w-full ml-5 mr-5 hover:bg-gray-900 hover:border-2  border-solid border-[purple]'>Hire Me</a>
