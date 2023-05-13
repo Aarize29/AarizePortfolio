@@ -59,10 +59,10 @@ const MainBody = () => {
   return (
     <div className='flex flex-col bg-[#01020A] '>
         {/* <h1 className='text-white'>Hello World</h1> */}
-       <div className='overflow-y-scroll    flex  flex-col hide-scrollbar'>
+       <div className=''>
        
        {/* Navbar */}
-       <div className="flex fixed w-screen items-center justify-between bg-[#01020A]  p-2 h-fit  text-2xl ">
+       <div className="flex fixed w-fit items-center justify-center bg-[#01020A]  p-2 h-fit  text-2xl ">
       
        <a href='#' onClick={() => document.querySelector('#home').scrollIntoView({ behavior: 'smooth' })}>
   <IoHome className="mr-1 text-white" />
