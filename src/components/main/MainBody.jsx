@@ -100,7 +100,7 @@ const MainBody = () => {
          <img src={myphoto} alt="" className='rounded-[25%] p-3 shadow-xl shadow-gray-700 border-solid border-4 m-3 w-fit h-fit border-[purple]'/>
          </div>
          <div className="m-3 mb-2 text-center flex flex-col ">
-             <h1 className="text-2xl  font-bold"><span className='text-[purple]'>Hello</span>, I am a</h1>
+             <h1 className="text-2xl  font-bold"><span className='text-[fuchsia]'>Hello</span>, I am a</h1>
              <p className='text-lg font-bold'>Full stack web developer with diverse skill</p>
          </div>
         <div className="flex items-center justify-center">
