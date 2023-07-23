@@ -9,6 +9,7 @@ import Projects from '../src/components/main/projects/Projects'
 import Contact from '../src/components/main/contact/Contact'
 import Navbar from '../src/components/navbarComponent/Navbar'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Experience from './components/main/experience/Experience'
 function App() {
   
 
@@ -22,6 +23,7 @@ function App() {
          <Routes>
         <Route path='/' element={<Hero/>}/>
         <Route path='about' element={<About/>}/>
+        <Route path='experience' element={<Experience/>}/>
         <Route path='skills' element={<Skills/>}/>
         <Route path='projects' element={<Projects/>}/>
         <Route path='contact' element={<Contact/>}/>

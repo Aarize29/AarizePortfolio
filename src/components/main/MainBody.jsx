@@ -72,6 +72,9 @@ const MainBody = () => {
        <a href='#about' >
   <IoPerson className="mr-1 text-white" />
 </a>
+       <a href='#experience' >
+  <AiFillSetting className="mr-1 text-white" />
+</a>
         
       
        <a href='#skills' >
@@ -143,6 +146,37 @@ const MainBody = () => {
           {/* <a href='skills'><span className='text-fuchsia-500 flex items-center justify-between text-2xl font-semibold cursor-pointer hover:underline decoration-white'> My Skills <BsArrowRight className='m-2'/></span></a> */}
         </div>
     </div>
+ 
+    {/* Experience */}
+    <h1 className='text-center mt-20 text-[fuchsia] underline decoration-white text-4xl font-bold'>Experience</h1>
+    <div id='experience' className='overflow-y-scroll mt-2 w-screen text-white flex p-5 flex-col hide-scrollbar h-screen'>
+    <div className=' rounded-2xl bg-backimage p-2 transform -scale-x-100 bg-repeat-space '>
+          <div className='text-xl text-gray-300    mt-20 text-gray-300 text-center transform -scale-x-100'>
+        <div className='flex flex-col ml-5 mr-5  items-center' ><span className='text-fuchsia-500 mb-5 '>Intern At AvidSynth </span>
+        <span className='text-fuchsia-500'>June 2023 - Present</span>
+        </div>
+
+        <p className='m-5'>As a full-stack intern at AvidSynth, I played a pivotal role in crafting the company's website, excelling in both frontend and backend development to deliver a seamless and dynamic user experience.
+
+        As a full-stack intern at AvidSynth, I skillfully utilized Node.js, React-Flow, Tailwind CSS, Firebase, and React.js .
+        </p>
+        </div>
+        <div className='text-xl text-gray-300    mt-20 text-gray-300 text-center transform -scale-x-100'>
+        <div className='flex ml-5 mr-5 flex-col items-center' ><span className='text-fuchsia-500 mb-5'>Open Source Contributor At GSSOC2023 </span>
+        <span className='text-fuchsia-500'>May 2023 - Present</span>
+        </div>
+
+        <p className='m-5'>As an open-source contributor at GirlScript Summer of Code, I actively contributed to various projects, collaborating with a diverse team to create meaningful solutions and empower the community through code.
+        </p>
+        </div>
+
+        
+    </div>
+    </div>
+    
+
+
+             
     {/* Skills */}
       
     <div id='skills' className='flex w-screen flex-col'>

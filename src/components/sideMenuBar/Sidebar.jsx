@@ -10,6 +10,7 @@ import './Sidebar.css';
 const menuItems = [
   { name: 'Home', path: '/', icon: <IoHome /> },
   { name: 'About', path: '/about', icon: <IoPerson /> },
+  { name: 'Experience', path: '/experience', icon: <AiFillSetting />},
   { name: 'Skills', path: '/skills', icon: <TbIcons /> },
   { name: 'Projects', path: '/projects', icon: <TbWebhook /> },
   { name: 'Contact', path: '/contact', icon: <RiContactsBookFill /> },
