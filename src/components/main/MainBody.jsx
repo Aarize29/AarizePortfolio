@@ -148,9 +148,10 @@ const MainBody = () => {
     </div>
  
     {/* Experience */}
-    <h1 className='text-center mt-20 text-[fuchsia] underline decoration-white text-4xl font-bold'>Experience</h1>
-    <div id='experience' className='overflow-y-scroll mt-2 w-screen text-white flex p-5 flex-col hide-scrollbar h-screen'>
-    <div className=' rounded-2xl bg-backimage p-2 transform -scale-x-100 bg-repeat-space '>
+    <div id='experience'>
+    <h1  className='text-center mt-20 text-[fuchsia] underline decoration-white text-4xl font-bold'>Experience</h1>
+    <div  className=' mt-2 w-screen text-white flex p-5 flex-col'>
+    <div className=' rounded-2xl  p-2 transform -scale-x-100 bg-repeat-space '>
           <div className='text-xl text-gray-300    mt-20 text-gray-300 text-center transform -scale-x-100'>
         <div className='flex flex-col ml-5 mr-5  items-center' ><span className='text-fuchsia-500 mb-5 '>Intern At AvidSynth </span>
         <span className='text-fuchsia-500'>June 2023 - Present</span>
@@ -171,6 +172,7 @@ const MainBody = () => {
         </div>
 
         
+    </div>
     </div>
     </div>
     
