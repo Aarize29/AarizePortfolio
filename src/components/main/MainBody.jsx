@@ -97,7 +97,7 @@ const MainBody = () => {
       <div className="flex flex-col mt-10  w-screen shadow-xl shadow-gray-700 border-solid border-gray-500 border-4 rounded-2xl bg-[#01020A] text-gray-300">
         <div className="flex items-center justify-between m-3 mt-1 ">
           <h1 className='text-4xl font-bold underline decoration-[purple]'>Aarize</h1>
-          <a href="https://drive.google.com/file/d/1OoWXDGkKruMQH3Gm7LiLkJSCKmWrsZTl/view?usp=sharing" target='_blank'><h1 className='m-2 text-2xl font-bold underline decoration-[purple] cursor-pointer hover:transition-transform transition-all '>Resume</h1></a>
+          <a href="https://drive.google.com/file/d/1CC2OfYYMyEE03X18NiQ9nmWAZE6VrF7u/view?usp=sharing" target='_blank'><h1 className='m-2 text-2xl font-bold underline decoration-[purple] cursor-pointer hover:transition-transform transition-all '>Resume</h1></a>
         </div>
          <div className="flex justify-center items-center p-3  ">
          <img src={myphoto} alt="" className='rounded-[25%] p-3 shadow-xl shadow-gray-700 border-solid border-4 m-3 w-fit h-fit border-[purple]'/>
