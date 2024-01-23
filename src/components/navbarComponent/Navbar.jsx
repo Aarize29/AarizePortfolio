@@ -18,7 +18,7 @@ const Navbar = () => {
         {/* <div onClick={handleDarkmode} className='mr-3'>
         {isDark ?<BsFillMoonStarsFill className='cursor-pointer hover:text-[purple] hover:transition-transform transition-all'/>:<FiSun className='cursor-pointer hover:text-[purple] hover:transition-transform transition-all transform rotate-180'/> }
         </div> */}
-        <a href="https://drive.google.com/file/d/1RE-tlrtlzrlYIku9agBkf5TWh5-EC6Co/view?usp=sharing" target='_blank'><h1 className='m-2 hover:underline decoration-[purple] cursor-pointer hover:transition-transform transition-all '>Resume</h1></a>
+        <a href="https://drive.google.com/file/d/1Z6_jhlVh7LBGYRGdIzFX8RY1CJ3M-OJ_/view?usp=sharing" target='_blank'><h1 className='m-2 hover:underline decoration-[purple] cursor-pointer hover:transition-transform transition-all '>Resume</h1></a>
       </div>
 
       
