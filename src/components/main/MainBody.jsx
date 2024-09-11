@@ -97,7 +97,7 @@ const MainBody = () => {
       <div className="flex flex-col mt-10  w-screen shadow-xl shadow-gray-700 border-solid border-gray-500 border-4 rounded-2xl bg-[#01020A] text-gray-300">
         <div className="flex items-center justify-between m-3 mt-1 ">
           <h1 className='text-4xl font-bold underline decoration-[purple]'>Aarize</h1>
-          <a href="https://drive.google.com/file/d/1Z6_jhlVh7LBGYRGdIzFX8RY1CJ3M-OJ_/view?usp=sharing" target='_blank'><h1 className='m-2 text-2xl font-bold underline decoration-[purple] cursor-pointer hover:transition-transform transition-all '>Resume</h1></a>
+          <a href="https://drive.google.com/file/d/1Yqr2Nn1LH4TN1VPqx0ACC3o2MBF0FTN3/view?usp=sharing" target='_blank'><h1 className='m-2 text-2xl font-bold underline decoration-[purple] cursor-pointer hover:transition-transform transition-all '>Resume</h1></a>
         </div>
          <div className="flex justify-center items-center p-3  ">
          <img src={myphoto} alt="" className='rounded-[25%] p-3 shadow-xl shadow-gray-700 border-solid border-4 m-3 w-fit h-fit border-[purple]'/>
@@ -154,7 +154,7 @@ const MainBody = () => {
     <div className=' rounded-2xl  p-2 transform -scale-x-100 bg-repeat-space '>
           <div className='text-xl text-gray-300    mt-20 text-gray-300 text-center transform -scale-x-100'>
         <div className='flex flex-col ml-5 mr-5  items-center' ><span className='text-fuchsia-500 mb-5 '>Intern At Audio AI, LLC </span>
-        <span className='text-fuchsia-500'>June 2023 - Present</span>
+        <span className='text-fuchsia-500'>June 2023 - Dec-2023</span>
         </div>
 
         <p className='m-5'>As a full-stack intern at  Audio AI, LLC, I played a pivotal role in crafting the company's website, excelling in both frontend and backend development to deliver a seamless and dynamic user experience.
